@@ -1,0 +1,24 @@
+/* Your tabs CSS code here */
+.tabs {
+  list-style: none;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.tab {
+  color: black;
+  cursor:default;
+  margin-right: 24px;
+  opacity: 0.5;
+  padding-bottom: 5px;
+}
+
+.tab:hover {
+  color: darkblue;
+  opacity: .6;
+}
+
+.tab.active {
+  opacity: 1;
+  border-bottom: 3px solid darkblue;
+}
